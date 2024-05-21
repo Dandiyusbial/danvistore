@@ -119,16 +119,17 @@ header .navbar a:hover {
     background-position: center;
     min-height: 100vh;
     text-align: center;
+    /* background-color: #0a2a49; */
 }
 
 .home .content {
-    padding-top: 5rem;
     max-width: 70%;
     margin: 0 auto;
-
+    
 }
 
 .home .content h3 {
+    padding-top: 8rem;
     font-size: 4.8rem;
     color: #ffffff;
 }
@@ -157,6 +158,7 @@ header .navbar a:hover {
 }
 
 
+
 /* CSS FEATURES BOX-CONTAINER */
 .features .box-container {
     display: flex;
@@ -169,38 +171,42 @@ header .navbar a:hover {
     margin: 1rem;
     border-radius: .5rem;
     text-align: center;
-    background: rgba(252, 200, 221, 0.06);
-    padding: 1rem;
-    flex: 1 1 30rem;
+    /* background: rgba(237, 23, 111, .06); */
+    padding: .1rem;
+    flex: 1 1 15rem;
     cursor: pointer;
 }
 
+.features .box-container .box img {
+    height: 50rem;
+    width: 35rem;
+}
+
 .features .box-container .box i {
-    color: var(--coklat);
-    font-size: 5rem;
+    color: #474747;
+    font-size: 4rem;
     padding: 1rem;
 }
 
 .features .box-container .box h3 {
-    color: #bd6003;
+    color: #474747;
     font-size: 2.4rem;
-    padding: 1rem;
+    padding: .3rem;
 }
 
 .features .box-container .box p {
-    color: #d37b22;
+    color: #474747;
     font-size: 1.5rem;
-    padding: 1rem;
+    padding-bottom: 1rem;
 }
 
 .features .box-container .box:hover {
-    background: var(--gradient2);
+    background: #474747b0;
 }
 
 .features .box-container .box:hover>* {
-    color: #fff;
+    color: #4b1a07;
 }
-
 /* CSS ABOUT */
 
 .about .row {
@@ -304,19 +310,19 @@ header .navbar a:hover {
 
 .review .box-container .box h3 {
     font-size: 2.5rem;
-    color: #bd6003;
+    color: var(--blue2);
 }
 
 .review .box-container .box p {
     font-size: 1.5rem;
-    color: #d37b22;
+    color: var(--blue2);
     padding: 1rem 0;
 }
 
 .review .box-container .box .stars i {
     padding: 1rem 1rem;
     font-size: 2rem;
-    color: var(--coklat);
+    color: #ffd000;
 }
 
 
@@ -498,6 +504,7 @@ header .navbar a:hover {
   
   .modal .modal-content img {
     margin: auto 0;
+  
   }
   
   .modal .modal-content .produk-content h3 {
